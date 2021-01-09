@@ -1,0 +1,197 @@
+
+/* Navigation start here */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  }
+
+li {
+  float: left;
+}
+
+.active {
+    
+  }
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: aqua;
+}
+
+li a:hover {
+  background-color: #FFFFFF(3, 3, 3);
+  font-size: 30px;
+}
+
+
+body {
+  background-color: #ecf0f1;
+}
+
+.card {
+  width: 600px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  border: none;
+}
+
+.sign-in-panel {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  margin: 0 auto;
+  margin-top: -70px;
+  border-radius: 50%;
+}
+
+.sign-in-icon {
+  margin-top: 23px;
+  color: white;
+}
+
+.image {
+  text-align: center;
+}
+
+.first-input {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.last-input {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.input-group-text {
+  background-color: white;
+  border: none;
+  border-bottom: 4px solid #3498db;
+  color: #3498db;
+}
+
+.form-control {
+  height: 50px;
+  border: none;
+  border-bottom: 4px solid #3498db;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn-submit {
+  width: 400px;
+  height: 60px;
+  background-color: #3498db;
+  border-color: #3498db;
+  border-radius: 0.1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.btn-submit:focus {
+  box-shadow: none;
+}
+
+.alert-danger {
+  margin: 0 auto;
+  width: 400px;
+  border-radius: 0.1px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+  color: white;
+  margin-bottom: 30px;
+  visibility: hidden;
+}
+
+.fake-shadow-div {
+  text-align: center;
+}
+
+.fake-shadow {
+  width: 600px;
+  height: 100px;
+}
+/* Navigation start End */
+
+
+/* Login Page */
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("../image/pic1.jpg");
+
+  min-height: 800px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
